@@ -1,0 +1,64 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["Hi", "Hello", "Hiya", "Hey", "How are You", "Good Morning", "Good Afternoon", "Good Evening", "How is going"],
+    "responses": ["Hello!", "Hi", "Hello,how can I help You?", "Hello, what can I do for You?", "Hi, what can I help You with?"]
+    },
+     
+
+    {"tag": "goodbye",
+    "patterns": ["Bye", "Thank You for your help", "Good Bye", "See You later", "I am leaving", "Have a good day", "Cheers", "See ya", "Cya"],
+    "responses": ["Goodbye!", "Bye", "Have a good day", "See You soon", "Love You, Bye" ]
+    },
+    
+     {"tag": "delivery", 
+    "patterns": ["delivery time", "check my order", "delivery status", "missed delivery", "book redelivery", "received wrong product", "ship my order", "not received my package"],
+    "responses": ["You could try to redirect your package to your neighbour, a collection point near you or reschedule the delivery date by using the tracking link contained within the shipping email from Royal Mail.", "Visit your order details page to track the status of a recent order.", "Collection is available in an adidas Store for free", "Standard Home delivery with Royal Mail is 3-5 business days for £3.99", "All information related to delivery can be found in the link here: https://www.adidas.co.uk/help/delivery/what-is-the-delivery-time--cost"]
+    },
+    
+     {"tag": "returns_refunds", 
+    "patterns": ["How can I return my product?", "How can I return my purchase?", "Return policy", "Return cost", "Can I exchange my product?", "How do I return?", "How many days do I have to return my order?", "How do returns work?", "Will I get refund on my shipping cost?", "When will I get my refund?"],
+    "responses": ["Exchanges for a different size can be made for free in our store", "Refund can take up to 14 business days until you see the amount on your account, depending on your bank.", "You can return your product by post or at any store.", "All information related to returns and refunds can be found in the link here: https://www.adidas.co.uk/help/returns-refunds"]
+    },
+
+     {"tag": "costs",
+    "patterns": ["delivery cost", "postage cost", "reduced cost items"],
+    "responses": ["cost of delivery for purchases over £45 is free", "postage cost vary depending upon final receipt value"]
+    },
+        
+     {"tag": "ordering", 
+    "patterns": ["Order updates", "Where can I find my order?", "Can I modify my order", "Where is my order?", "Is my order processed?", "Can I preorder or reserve a product?", "Can I cancel my online order?", "Why is my order delayed, cancelled?", "Order history"],
+    "responses": ["Once the order is placed and paid for you cannot modify it. You can exchange or return your items.", "You can find your order number in My Purchase on Adidas App", "You will receive updates on your order via Adidas App.", "All information related to orders can be found in the link here: https://www.adidas.co.uk/help/ordering/where-can-i-find-my-order-number"]
+    },
+    
+        
+     {"tag": "payment", 
+    "patterns": ["Which payment methods do you accept?", "When will I be charged?", "Pay with Klarna", " Can I get VAT invoice?"],
+    "responses": ["Your receipt will be included in the package. If you require a VAT invoice please email us at vatinvoice@adidas.com", "We accept all card payments online. Klarna financing is available online.", "All information related to payments can be found in the link here: https://www.adidas.co.uk/help/payment/which-payment-methods-do-you-accept"]
+    },
+    
+        
+     {"tag": "size_guide", 
+    "patterns": ["Size charts", "Clothes size guide", "How do I find my size?", "Shoe size", "Kids clothing size guide", "Kids shoe size guide"],
+    "responses": ["Please visit: https://www.adidas.co.uk/help/size_charts for size guide."]
+    },
+    
+        
+     {"tag": "vouchers", 
+    "patterns": ["How do I use my voucher", "My voucher code is not working", "Online voucher", "Incorrect discount", "Why is my voucher not working on sale product?", "Gift card balance", "Discount code", "Refund for voucher", "Refund for gift card"],
+    "responses": ["Please email us directly at vaouchers@adidas.com.", "Click ‘Enter promo code’ under your order summary. A promo code can also be applied on the delivery page.", "All information related to vouchers can be found in the link here: https://www.adidas.co.uk/help/vouchers-gift-cards/how-do-i-use-my-voucher"]
+    },
+    
+        
+     {"tag": "click_collect", 
+    "patterns": ["Where can I collect my order?", "Where is a collection point in my city?", "How to place click and collect reservation?", " Are all products available for click and collect?", "How to pay for click and collect reservation?", "When can I pick up click and collect reservation?", "What do I bring for pickup of click and collect?"],
+    "responses": ["If upon collecting your reservation, you are not completely happy with your products, you can simply leave them in the store without paying for them.","Your friends and family can also come and get the reservation for you. Ask them to bring your reservation number and present it to one of the in-store teams.","Go to the store after you’ve received the notification that says it’s ready to be picked up. Bring your reservation number and present it to one of the in-store teams.","All information related to click & collect can be found in the link here: https://www.adidas.co.uk/help/click--collect/how-do-i-place-a-click--collect-reservation"]
+    },
+
+
+     {"tag": "products",
+    "patterns": ["What is the warranty on products?", "Is product available?", "Where can I submit complaint or compliment?"],
+    "responses": ["Any adidas product manufactured or purchased within the last two years is eligible for a Return Authorisation. A copy of your original receipt or itemised proof of purchase will be required as well. Please contact us and provide photos that clearly show the defect, along with article number (ART # is a 6-digit numeric or alphanumeric code on the product tag) and overall product.", "If you want to return a product that you bought at one of our own stores because of a quality issue, you must return it to one of our stores.", "we cannot compensate for products that were damaged for other reasons, including damage by negligence, misuse or wear and tear. We cannot compensate if the product was bought from anywhere other than our Online Shop or one of our official stores.", "All information related to products can be found in the link here: https://www.adidas.co.uk/help/products/what-is-the-warranty-on-my-products"]
+    }]}
+    
+    
+    
